@@ -1,0 +1,42 @@
+.head1 {
+    background-color: black;
+    padding: 0;
+    
+}
+
+
+.clr {
+    clear: both;
+}
+
+.head1 .ul1 {
+    float: left;
+
+}
+
+.head1 .ul2 {
+    float: right;
+    margin-right: 15px;
+}
+
+.head1 .ul1 li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.head1 .ul2 li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.head1 .ul1 li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.head1 .ul2 li a {
+    text-decoration: none;
+    color: wheat;
+}

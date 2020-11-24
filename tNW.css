@@ -83,15 +83,49 @@ header {
 
 .box {
     background-color: #EFEFEF;
+    clear: both;
 }
 
 .left {
+    position: relative;
     float: left;
     width: 67%;
-    background-image: url(https://web.gencat.cat/web/.content/Imatge/noticies/2017/20170505_drons.jpg);
+    background-image:url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701920079.jpg);
     width: 65%;
     height: 500px;
     margin-left: 10px;
+}
+
+.left .top {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    color: rgb(18, 235, 36);
+}
+
+.left img {
+    position: absolute;
+    top: 0;
+    width: 650px;
+    height: 350px;
+    padding: 0;
+}
+
+.but {
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+    color: wheat;
+    font-size: 45px;
+    font-weight: 900;
+    color: red;
+}
+
+.buton {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: wheat;
 }
 
 .right {
@@ -100,16 +134,66 @@ header {
 }
 
 .right1 {
+    position: relative;
     background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/190319115821-20190319-elon-musk-large-169.jpg);
     width: 97%;
     height: 245px;
 }
 
+.elon1 {
+    position: absolute;
+    left: 15px;
+    top: 80px;
+    color: wheat;
+}
+
+.elon2 {
+    position: absolute;
+    left: 15px;
+    top: 90px;
+    color: wheat;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.elon3 {
+    position: absolute;
+    left: 15px;
+    font-size: x-small;
+    bottom: 10px;
+    color: wheat;
+}
+
 .right2 {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRxaZHR70wNf34bpA_o0ENOPK3A99KU4F_Vw&usqp=CAU);
+    position: relative;
+    background-image: url(https://im0-tub-com.yandex.net/i?id=d29305a0b83a8a8d5c9ca29b015c69b8&n=13);
     width: 97%;
     height: 245px;
     margin-top: 10px;
+}
+
+.tech1 {
+    position: absolute;
+    left: 15px;
+    top: 80px;
+    color: rgb(0, 0, 0);
+}
+
+.tech2 {
+    position: absolute;
+    left: 15px;
+    top: 90px;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.tech3 {
+    position: absolute;
+    left: 15px;
+    font-size: x-small;
+    bottom: 10px;
+    color: rgb(0, 0, 0);
 }
 
 .btn {

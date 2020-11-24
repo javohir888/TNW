@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+header {
+    position: relative;
+}
+
 .head1 {
     position: relative;
     background-color: black; 
@@ -51,8 +55,8 @@ body {
 }
 
 .head2 {
-    position: fixed;
-    top: 45px;
+    background-color: white;
+    padding: 15px 0;
 }
 
 .head2 ul {
@@ -74,12 +78,140 @@ body {
 
 .fa-search {
     color: gray;
-    border-left: 1px solid rgb(133, 127, 133);
-    padding: 15px 0 15px 15px;
-    margin-left: 860px;
+    margin-left: 840px;
 }
 
+.box {
+    background-color: #EFEFEF;
+}
 
+.left {
+    float: left;
+    width: 67%;
+    background-image: url(https://web.gencat.cat/web/.content/Imatge/noticies/2017/20170505_drons.jpg);
+    width: 65%;
+    height: 500px;
+    margin-left: 10px;
+}
+
+.right {
+    float: right;
+    width: 33%;
+}
+
+.right1 {
+    background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/190319115821-20190319-elon-musk-large-169.jpg);
+    width: 97%;
+    height: 245px;
+}
+
+.right2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRxaZHR70wNf34bpA_o0ENOPK3A99KU4F_Vw&usqp=CAU);
+    width: 97%;
+    height: 245px;
+    margin-top: 10px;
+}
+
+.btn {
+    text-align: center;
+    clear: both;
+    padding-top: 30px;
+}
+
+.btn h3 {
+    color: gray;
+}
+
+.btn h3 span {
+    font-size: x-large;
+    color: rgb(104, 104, 104);
+}
+
+.button1 {
+    background-color: rgb(62, 62, 245);
+    color: wheat;
+    padding: 6px 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.button2 {
+    color: gray;
+    border-radius: 3px;
+    padding: 6px 5px;
+    border: none;
+}
+
+.button1:hover,
+.button2:hover {
+    cursor: pointer;
+}
+
+.news {
+    font-weight: 900;
+    color: red;
+    margin-top: 200px;
+    margin-left: 15%;
+}
+
+.middle {
+    width: 75%;
+    margin: 0 auto;
+    border: red 1px solid;
+}
+
+.box1 {
+    float: left;
+    width: 25%;
+}
+
+.box1 img {
+    width: 280px;
+    height: 150px;
+}
+
+.box1 figure {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.box1 figure:hover {
+    cursor: pointer;
+    color: rgb(252, 54, 54);
+    text-decoration: underline;
+}
+
+.box1 p {
+    font-size: x-small;
+    color: grey;
+}
+
+.box2 {
+    float: left;
+    width: 25%;
+    margin-top: 30px;
+}
+
+.box2 img {
+    width: 280px;
+    height: 150px;
+}
+
+.box2 figure {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.box2 figure:hover {
+    cursor: pointer;
+    color: rgb(252, 54, 54);
+    text-decoration: underline;
+}
+
+.box2 p {
+    font-size: x-small;
+    color: grey;
+}
 
 
 

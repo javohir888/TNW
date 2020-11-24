@@ -1,22 +1,25 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
 .head1 {
-    background-color: black;
+    position: relative;
+    background-color: black; 
+    height: 45px;
     padding: 0;
-    
 }
 
-
-.clr {
-    clear: both;
-}
 
 .head1 .ul1 {
-    float: left;
-
+    position: absolute;
+    top: 0;
 }
 
 .head1 .ul2 {
-    float: right;
-    margin-right: 15px;
+    position: absolute;
+    right: 15px;
+    top: 0;
 }
 
 .head1 .ul1 li {
@@ -34,9 +37,57 @@
 .head1 .ul1 li a {
     text-decoration: none;
     color: wheat;
+    font-size: 14px;
 }
 
 .head1 .ul2 li a {
     text-decoration: none;
     color: wheat;
+}
+
+.head1 .ul1 li a:hover,
+.head1 .ul2 li a:hover {
+    color: white;
+}
+
+.head2 {
+    position: fixed;
+    top: 45px;
+}
+
+.head2 ul {
+    display: inline;
+    padding: 15px;
+}
+
+.head2 ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.head2 ul li a {
+    color: rgb(133, 127, 133);
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.fa-search {
+    color: gray;
+    border-left: 1px solid rgb(133, 127, 133);
+    padding: 15px 0 15px 15px;
+    margin-left: 860px;
+}
+
+
+
+
+
+
+
+
+
+
+*{
+    /* border: 1px solid green; */
 }

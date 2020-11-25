@@ -297,13 +297,63 @@ header {
     color: grey;
 }
 
-
-
-
-
-
-
-
-*{
-    /* border: 1px solid green; */
+footer {
+    margin-top: 150px;
+    text-align: center;
+    background-color: #131313;
+    padding-top: 20px;
 }
+
+.icon i {
+    margin: 20px 0 0 20px;
+    color: white;
+    background-color: #3a3a3a;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.icon i:hover {
+    cursor: pointer;
+    background-color: #131313;
+    border: 1px solid #3a3a3a;
+}
+
+.even {
+    margin-top: 25px;
+}
+
+
+.even li {
+    display: inline;
+    list-style-type: none;
+    font-size: x-small;
+    margin-left: 15px;
+    color: wheat;
+}
+
+.foot2 {
+    position: relative;
+    background-color: black;
+    padding: 30px 0;
+}
+
+.tnw {
+    color: #3a3a3a;
+    font-size: 12px;
+}
+
+.tnw a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-universal-access {
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+    position: fixed;
+    color: rgb(68, 68, 250);
+    font-size: 50px;
+}
+
